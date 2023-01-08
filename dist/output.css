@@ -601,19 +601,13 @@ video {
   right: 1.5rem;
 }
 
+.m-4 {
+  margin: 1rem;
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
-}
-
-.-mx-4 {
-  margin-left: -1rem;
-  margin-right: -1rem;
-}
-
-.mx-4 {
-  margin-left: 1rem;
-  margin-right: 1rem;
 }
 
 .my-6 {
@@ -677,12 +671,16 @@ video {
   width: 2.5rem;
 }
 
-.w-full {
-  width: 100%;
+.w-1\/5 {
+  width: 20%;
 }
 
-.w-\[150px\] {
-  width: 150px;
+.w-1\/2 {
+  width: 50%;
+}
+
+.w-1 {
+  width: 0.25rem;
 }
 
 .max-w-md {
@@ -711,6 +709,10 @@ video {
 
 .flex-wrap {
   flex-wrap: wrap;
+}
+
+.items-start {
+  align-items: flex-start;
 }
 
 .items-center {
@@ -830,6 +832,14 @@ video {
   padding: 0.75rem;
 }
 
+.p-5 {
+  padding: 1.25rem;
+}
+
+.p-4 {
+  padding: 1rem;
+}
+
 .px-6 {
   padding-left: 1.5rem;
   padding-right: 1.5rem;
@@ -860,19 +870,14 @@ video {
   padding-right: 0.5rem;
 }
 
-.py-10 {
-  padding-top: 2.5rem;
-  padding-bottom: 2.5rem;
-}
-
-.py-5 {
-  padding-top: 1.25rem;
-  padding-bottom: 1.25rem;
-}
-
 .py-24 {
   padding-top: 6rem;
   padding-bottom: 6rem;
+}
+
+.py-10 {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
 }
 
 .pt-2 {
@@ -942,6 +947,11 @@ video {
 .text-gray-400 {
   --tw-text-opacity: 1;
   color: rgb(156 163 175 / var(--tw-text-opacity));
+}
+
+.text-gray-800 {
+  --tw-text-opacity: 1;
+  color: rgb(31 41 55 / var(--tw-text-opacity));
 }
 
 .text-brightRed {
@@ -1098,6 +1108,14 @@ body {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
+  .sm\:flex-col {
+    flex-direction: column;
+  }
+
+  .sm\:flex-wrap {
+    flex-wrap: wrap;
+  }
+
   .sm\:self-center {
     align-self: center;
   }
@@ -1134,6 +1152,10 @@ body {
 
   .md\:flex-col {
     flex-direction: column;
+  }
+
+  .md\:flex-col-reverse {
+    flex-direction: column-reverse;
   }
 
   .md\:items-start {
@@ -1194,20 +1216,11 @@ body {
     padding-left: 2rem;
     padding-right: 2rem;
   }
-
-  .lg\:py-\[50px\] {
-    padding-top: 50px;
-    padding-bottom: 50px;
-  }
 }
 
 @media (min-width: 1440px) {
   .xl\:max-w-7xl {
     max-width: 80rem;
-  }
-
-  .xl\:text-center {
-    text-align: center;
   }
 }
 
