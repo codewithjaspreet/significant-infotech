@@ -1,0 +1,14 @@
+Application and documentation: The borrower submits a loan application and provides the necessary documentation, such as income verification and proof of assets.
+
+Credit check: The bank conducts a credit check to determine the borrower's creditworthiness.
+
+Property appraisal: An appraiser is sent to the property to determine its value.
+
+Underwriting: The bank's underwriting department reviews the loan application, credit report, and property appraisal to determine if the loan meets the bank's guidelines.
+
+Approval or denial: The bank makes a decision to approve or deny the loan application.
+
+Closing: If the loan is approved, the borrower and the bank will complete the necessary paperwork and the loan funds will be disbursed.
+
+
+
